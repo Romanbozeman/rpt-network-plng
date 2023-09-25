@@ -1,0 +1,13 @@
+
+SELECT table_catalog, table_schema, table_name, column_name, data_type
+FROM `rpt-network-plng`.o2_data.INFORMATION_SCHEMA.COLUMNS
+
+
+SELECT table_catalog, table_schema, table_name, column_name, data_type
+FROM `rpt-network-plng`.rpt_network_data.INFORMATION_SCHEMA.COLUMNS
+
+
+SELECT table_catalog, table_schema, table_name, column_name, data_type
+FROM `rpt-network-plng`.sitetracker_data.INFORMATION_SCHEMA.COLUMNS
+
+
